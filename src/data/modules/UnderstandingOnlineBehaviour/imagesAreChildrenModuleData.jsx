@@ -1,8 +1,4 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
-
 import ReflectionQuestion from "@/components/ReflectionQuestion";
-import pictureOne from "@/images/diagrams-yes-or-no.gif";
 
 const ImagesAreChildrenModuleData = [
   {
@@ -120,7 +116,7 @@ const ImagesAreChildrenModuleData = [
             video clip of an individual explaining his realisation of the harm
             to children, as a result of his own online behaviour.
           </p>
-          <p className="text-center">
+          <p className="text-center embed-responsive">
             <iframe
               title="YouTube video player"
               width="560"
@@ -188,7 +184,7 @@ const ImagesAreChildrenModuleData = [
               with the harm that this behaviour can cause to the children in the
               images.
             </p>
-            <p className="text-center">
+            <p className="text-center embed-responsive">
               <iframe
                 title="Part 8 Interview with man arrested for downloading indecent images of children"
                 width="640"
@@ -330,7 +326,7 @@ const ImagesAreChildrenModuleData = [
               This film includes some of the justifications that people use to
               allow themselves to continue offending online.
             </p>
-            <p className="text-center">
+            <p className="text-center embed-responsive">
               <iframe
                 title="Stop it Now 'No Justification'"
                 width="640"

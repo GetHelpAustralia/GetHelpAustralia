@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import document from "@/documents/Adult Pornography_Online Use Diary.pdf";
+import { Link } from "react-router-dom";
 
 const AdultPornographyModuleData = [
   {
@@ -81,7 +80,7 @@ const AdultPornographyModuleData = [
             unwilling, forced, threatened, or even been through sex trafficking.
             With amateur footage, you might be viewing people who give consent
             to show themselves sexually online, but you could also be watching
-            something that wasn’t supposed to be shared, such as revenge porn.
+            something that wasn't supposed to be shared, such as revenge porn.
             It is impossible to guarantee the people you are watching have given
             consent.
           </p>
@@ -131,21 +130,6 @@ const AdultPornographyModuleData = [
             </li>
           </ul>
           <br></br>
-          {/* <h4 className="secondary-color">
-            Exercise 1: Is adult pornography a problem for you?
-          </h4>
-          <p>
-            How can you tell if your use of adult pornography is a problem? Use
-            the quiz below to find out.
-          </p>
-  
-          <p>INSERT QUIZ&nbsp;</p>
-          <p>
-            The more questions you agree with, the more problematic your
-            pornography use appears to be. If you answered ‘yes’ to any of the
-            questions, you might find this module helpful.
-          </p>
-          <br/> */}
           <h4 className="secondary-color">
             The impact of adult pornography on your life
           </h4>
@@ -169,8 +153,8 @@ const AdultPornographyModuleData = [
               regular sexual pleasure
             </li>
             <li>
-              dull a person’s senses to real-world experiences. Some people
-              might put pressure on their partner to copy what they’ve seen
+              dull a person's senses to real-world experiences. Some people
+              might put pressure on their partner to copy what they've seen
               online, creating tension and resentment
             </li>
             <li>
@@ -293,7 +277,7 @@ const AdultPornographyModuleData = [
               </li>
               <li>
                 Come from situations, for example, sitting in the room where
-                you’d usually look at adult pornography.
+                you'd usually look at adult pornography.
               </li>
               <li>
                 Come from habits, for example, viewing adult pornography at the
@@ -304,7 +288,7 @@ const AdultPornographyModuleData = [
               Some triggers are pleasant (e.g., seeing an attractive adult and
               feeling aroused), others are less pleasant (e.g., stress, sadness,
               loneliness, frustration, anger, boredom) and others more neutral
-              (e.g., sitting in room where you’d usually use pornography).
+              (e.g., sitting in room where you'd usually use pornography).
             </p>
             <p>
               How these triggers impact pornography use will be different for
@@ -322,7 +306,7 @@ const AdultPornographyModuleData = [
             </p>
             <p>
               It is important to remember that we are in control of our own
-              behaviour, even if it sometimes doesn’t feel like it. Even if
+              behaviour, even if it sometimes doesn't feel like it. Even if
               something has triggered you to have a strong emotional reaction,
               you still have a choice of how to make yourself feel better. You
               have a choice whether to go online and view pornography, or
@@ -372,8 +356,8 @@ const AdultPornographyModuleData = [
             </h5>
             <p>
               Your brain loves new things. Over time your brain can get bored if
-              you keep viewing the same type of adult pornography. It doesn’t
-              have the same effect because it isn’t new. To get the same level
+              you keep viewing the same type of adult pornography. It doesn't
+              have the same effect because it isn't new. To get the same level
               of sexual arousal, you might need to keep viewing new things.
             </p>
             <p>
@@ -388,7 +372,7 @@ const AdultPornographyModuleData = [
             </p>
             <p>
               This is because all species, including humans, evolved to try to
-              reproduce so that they don’t go extinct. So your modern brain is
+              reproduce so that they don't go extinct. So your modern brain is
               linking pornography with its aim to reproduce – ejaculating as
               many times as possible to impregnate as many females as possible.
             </p>
@@ -436,9 +420,9 @@ const AdultPornographyModuleData = [
             <h5 className="secondary-color">Flow Theory</h5>
             <p>
               When viewing and collecting pornography you might find that time
-              flows more quickly and you don’t focus on your usual worries. You
+              flows more quickly and you don't focus on your usual worries. You
               might lose awareness of what else is going on in life and feel
-              like you’re in a bubble. After you stop viewing pornography, you
+              like you're in a bubble. After you stop viewing pornography, you
               might not have any clear idea of what you thought or felt while
               you were online.
             </p>
@@ -448,7 +432,7 @@ const AdultPornographyModuleData = [
               Dopamine is released when your brain is active and focused on a
               rewarding task. This can help understand why the behaviour
               continues and you might be drawn to it in the future to escape
-              from life’s stresses.
+              from life's stresses.
             </p>
             <br></br>
             <h4 className="secondary-color">How do drivers affect you?</h4>
@@ -463,12 +447,12 @@ const AdultPornographyModuleData = [
                 next time you are online?
               </li>
               <li>
-                Do you feel that the ‘online you’ is very different from the
-                ‘offline you’?
+                Do you feel that the 'online you' is very different from the
+                'offline you'?
               </li>
             </ul>
             <p>
-              Most people don’t know or think about drivers. But the people who
+              Most people don't know or think about drivers. But the people who
               make pornography do.
             </p>
             <p>
@@ -549,7 +533,7 @@ const AdultPornographyModuleData = [
               </li>
               <li>
                 If you usually use your phone, tablet or laptop late at night,
-                don’t take it to bed with you or charge it in the bedroom.
+                don't take it to bed with you or charge it in the bedroom.
               </li>
               <li>
                 Set restrictions or activate parental controls on your internet
@@ -582,7 +566,7 @@ const AdultPornographyModuleData = [
               <a
                 href="https://www.innerhealthstudio.com/visualization-scripts.html"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="secondary-color"
               >
                 Find out more about relaxation techniques
@@ -749,7 +733,7 @@ const AdultPornographyModuleData = [
             </p>
             <p>
               When you first give up, it might be very tempting to view just a
-              bit of pornography. Don’t test yourself. If you give in to these
+              bit of pornography. Don't test yourself. If you give in to these
               temptations, you might find that you view more and more and the
               habit has reformed.
             </p>
@@ -798,7 +782,7 @@ const AdultPornographyModuleData = [
                 and also releases dopamine.
               </li>
               <li>
-                Be kind to yourself<strong>. </strong>Most people don’t get it
+                Be kind to yourself<strong>. </strong>Most people don't get it
                 right the first time and lapses are very common. The importance
                 is on not giving up and entering a full relapse, but to learn
                 from those experiences.
@@ -807,7 +791,7 @@ const AdultPornographyModuleData = [
                 Think of some statements that will help you tap into your
                 motivation to continue to reduce/stop this behaviour. These
                 could be connected to your personal values or how stopping the
-                behaviour will benefit you and others. For example, “I want to
+                behaviour will benefit you and others. For example, "I want to
                 be a loving and present partner to my significant other.
               </li>
             </ul>

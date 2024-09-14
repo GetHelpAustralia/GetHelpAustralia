@@ -25,12 +25,6 @@ const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
     }
   };
 
-  const handleSubmit = () => {
-    if (dispatch && submitWellbeingScoreToNetlify) {
-      dispatch(submitWellbeingScoreToNetlify(new FormData(document.form)));
-    }
-  };
-
   return (
     <>
       <div className="d-flex mb-3">

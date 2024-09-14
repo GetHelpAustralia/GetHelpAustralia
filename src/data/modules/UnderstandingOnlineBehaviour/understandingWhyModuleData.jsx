@@ -115,7 +115,7 @@ const understandingWhyModuleData = [
           <img
             src={pictureOne}
             alt="daily internet use record"
-            style={{ height: "auto", maxWidth: "100%" }}
+            className="img-center img-responsive"
           />
           <br />
           <a href={documentOne} target="_blank" rel="noopener noreferrer">
@@ -180,7 +180,7 @@ const understandingWhyModuleData = [
           <img
             src={pictureTwo}
             alt="some understanding why scale"
-            style={{ height: "auto", maxWidth: "100%" }}
+            className="img-center img-responsive"
           />
           <br />
           <br></br>
@@ -207,7 +207,7 @@ const understandingWhyModuleData = [
           <img
             src={pictureThree}
             alt="Understanding why"
-            style={{ height: "auto", maxWidth: "100%" }}
+            className="img-center img-responsive"
           />
           <br />
           <br></br>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import image from "@/images/justifications.gif";
 import documentOne from "@/documents/Justification_Challenging your justifications.pdf";
@@ -44,13 +43,14 @@ const JustificationsModuleData = [
               justifications.
             </p>
             <p>Here's an example</p>
-            <img
-              className="mx-auto d-block"
+            <div className="text-center">
+              <img
+              className="img-center img-responsive-90"
               src={image}
               alt="Justifications"
-              height="auto"
-              width="60%"
             />
+            </div>
+            <br />
             <br />
             <p>
               People will be persuaded by their unhelpful thinking if their

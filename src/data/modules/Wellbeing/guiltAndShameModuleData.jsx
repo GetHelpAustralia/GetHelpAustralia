@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import picture from "@/images/shame-spiral.png";
+import { Link } from "react-router-dom";
 
 const GuiltAndShameModuleData = [
   {
@@ -33,25 +32,25 @@ const GuiltAndShameModuleData = [
             </li>
           </ul>
           <p>
-            We’ve worked with a lot of people who have committed offences online
+            We've worked with a lot of people who have committed offences online
             and have experienced guilt and shame. Feeling guilt and shame are
             normal reactions. But these emotions can be incredibly difficult to
             cope with and can lead to feeling overwhelmed and hopeless. This is
             sometimes referred to as the shame spiral.
           </p>
-          <img
-            className="mx-auto d-block"
-            src={picture}
-            alt="Shame Spiral"
-            height="auto"
-            width="50%"
-          />
+          <div className="text-center">
+            <img
+              className="img-responsive-50"
+              src={picture}
+              alt="Shame Spiral"
+            />
+          </div>
           <p className="text-center">
             <i>Adapted from Self Love and Rainbows</i>
           </p>
           <br />
           <p>
-            This module aims to help you recognise if you’re feeling shame and
+            This module aims to help you recognise if you're feeling shame and
             ways you can overcome it so that you can build a healthier and
             offence free life.
           </p>
@@ -91,7 +90,7 @@ const GuiltAndShameModuleData = [
             We can experience and recognise shame in different ways, including
             physical, emotional and behavioural signs. Being able to recognise
             when you feel ashamed is the first step in being able to manage that
-            feeling so that it doesn’t become unhelpful.
+            feeling so that it doesn't become unhelpful.
           </p>
           <p>
             There are some examples in the table below of how some people
@@ -174,9 +173,9 @@ const GuiltAndShameModuleData = [
           <br></br>
           <h4 className="secondary-color">How to deal with shame</h4>
           <p>
-            We’ve worked with a lot of people who have committed sexual offences
+            We've worked with a lot of people who have committed sexual offences
             and have experienced guilt and shame. These feelings are normal and
-            feeling guilty can help make sure you don’t engage in harmful
+            feeling guilty can help make sure you don't engage in harmful
             behaviour in the future. However, shame can be incredibly difficult
             to cope with and can lead to feeling overwhelmed and hopeless, which
             can prevent you from moving to an offence free life.
@@ -190,13 +189,13 @@ const GuiltAndShameModuleData = [
           </h5>
           <p>
             Facing what you have done is the first step toward forgiving
-            yourself. Don’t make excuses or try to justify your actions.
+            yourself. Don't make excuses or try to justify your actions.
           </p>
           <p>
             See this as an opportunity to learn and grow as a person. Identify
             where you could have done better and make a plan for how to handle
             similar situations in the future. This can help give you the
-            confidence that you won’t repeat your mistakes.
+            confidence that you won't repeat your mistakes.
           </p>
           <h5 className="secondary-color">Talk about your feelings</h5>
           <p>
@@ -214,7 +213,7 @@ const GuiltAndShameModuleData = [
           <h5 className="secondary-color">Find an emotional outlet</h5>
           <p>
             Making changes in your life can cut down on unpleasant emotions, but
-            it won’t eliminate them. As you make changes in your life to reduce
+            it won't eliminate them. As you make changes in your life to reduce
             <b> unpleasant</b> emotions such as shame, you will also need to
             find healthy outlets for dealing with these emotions, for example:
           </p>
@@ -233,7 +232,7 @@ const GuiltAndShameModuleData = [
             </li>
           </ul>
           <p>
-            Find a few of these outlets, and you’ll feel less overwhelmed when
+            Find a few of these outlets, and you'll feel less overwhelmed when
             having unpleasant emotions.
           </p>
           <h5 className="secondary-color">Work on your self-talk</h5>

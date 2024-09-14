@@ -47,11 +47,9 @@ const DisclosureModuleData = [
           <br />
           <p>
             <img
-              className="d-block mx-auto"
+              className="img-center img-responsive-90"
               src={imageOne}
               alt="legal consequences"
-              width="90%"
-              height="auto"
             />
           </p>
           <br></br>

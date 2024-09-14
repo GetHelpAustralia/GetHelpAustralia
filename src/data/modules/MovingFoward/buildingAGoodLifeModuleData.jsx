@@ -31,11 +31,9 @@ const BuildingAGoodLifeModuleData = [
           </p>
           <p>
             <img
-              className="d-block mx-auto"
+              className="img-center img-responsive"
               src={imageOne}
               alt="good lives"
-              width="90%"
-              height="auto"
             />
           </p>
           <p>Find out more about each section below:</p>

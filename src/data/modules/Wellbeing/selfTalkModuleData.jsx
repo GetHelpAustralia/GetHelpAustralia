@@ -4,8 +4,6 @@ import pictureFour from "@/images/diagrams-selftalk-4.gif";
 import pictureFive from "@/images/diagrams-selftalk.gif";
 import pictureSix from "@/images/diagrams-yes-or-no.gif";
 
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 const selfTalkModuleData = [
@@ -72,10 +70,9 @@ const selfTalkModuleData = [
           </p>
           <br />
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive-70"
             src={pictureTwo}
             alt="self-talk 2"
-            style={{ height: "auto", maxWidth: "70%" }}
           />
           <br />
           <br></br>
@@ -89,20 +86,18 @@ const selfTalkModuleData = [
           <br />
           <p>Examples of self-talk that encourage healthy behaviour:</p>
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive-70"
             src={pictureThree}
             alt="Self-talk 3"
-            style={{ height: "auto", maxWidth: "70%" }}
           />
           <br />
           <br />
           <br></br>
           <p>Examples of self-talk that enhances your self-esteem:</p>
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive-70"
             src={pictureFour}
             alt="Self-talk 4"
-            style={{ height: "auto", maxWidth: "70%" }}
           />
           <br />
           <br />
@@ -217,10 +212,8 @@ const selfTalkModuleData = [
           <p>For example going on a first date:</p>
           <img
             src={pictureFive}
-            className="d-block mx-auto"
+            className="img-center img-responsive-70"
             alt="self-talk"
-            height="auto"
-            width="70%"
           />
           <br></br>
           <br></br>
@@ -245,9 +238,7 @@ const selfTalkModuleData = [
           <img
             src={pictureSix}
             alt="self-talk yes or no"
-            className="d-block mx-auto"
-            height="auto"
-            width="70%"
+            className="img-center img-responsive-70"
           />
           <br />
           <br></br>

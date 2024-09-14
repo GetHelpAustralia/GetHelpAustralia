@@ -35,7 +35,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <br />
           <p>The following diagram helps to explain this:</p>
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive"
             src={pictureOne}
             alt="Feelings response diagram"
             width={583}
@@ -50,7 +50,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <h5 className="secondary-color">What happens in my body</h5>
           <p>Here are some of the physical reactions we have to situations:</p>
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive"
             src={pictureTwo}
             alt="Man Diagram"
             width={539}
@@ -142,7 +142,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <br></br>
           <p>Our thoughts, feelings and behaviour are all linked:</p>
           <img
-            className="mx-auto d-block"
+            className="img-center img-responsive"
             src={pictureThree}
             alt="Feelings Diagram"
             width={494}

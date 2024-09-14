@@ -114,7 +114,8 @@ const ProblemSolvingModuleData = [
             Complete the problem diary over the next 7 days.&nbsp;Reflect on
             your initial responses to the problem and how you dealt with it.
           </p>
-          <table className="table table-bordered">
+          <div className="table-responsive">
+            <table className="table table-bordered">
             <tbody>
               <tr>
                 <th>Describe the problem- what happened?</th>
@@ -189,7 +190,8 @@ const ProblemSolvingModuleData = [
                 <td></td>
               </tr>
             </tbody>
-          </table>
+            </table>
+          </div>
           <p>
             <a
               className="secondary-color"
@@ -300,11 +302,9 @@ const ProblemSolvingModuleData = [
           <p>Here is an example of brainstorming.</p>
           <p>
             <img
-              className="d-block mx-auto"
+              className="img-center img-responsive"
               src={imageOne}
               alt="good lives"
-              width="80%"
-              height="auto"
             />
           </p>
           <p>

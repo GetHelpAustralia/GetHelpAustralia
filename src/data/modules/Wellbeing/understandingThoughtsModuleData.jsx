@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
-import pictureOne from "@/images/thoughts-feelings-and-behaviour.jpg";
 import pictureTwo from "@/images/level-of-control.png";
+import pictureOne from "@/images/thoughts-feelings-and-behaviour.jpg";
 
 const UnderstandingThoughtsModuleData = [
   {
@@ -75,7 +73,11 @@ const UnderstandingThoughtsModuleData = [
             </p>
             <br></br>
             <p className="text-center">
-              <img src={pictureOne} alt="" width="auto" height="100%" />
+              <img
+                className="img-center img-responsive"
+                src={pictureOne}
+                alt="thoughts-feelings-and-behaviour"
+              />
             </p>
             <p>&nbsp;</p>
             <br></br>
@@ -297,8 +299,7 @@ const UnderstandingThoughtsModuleData = [
               <img
                 src={pictureTwo}
                 alt="level of control"
-                width="720"
-                height="548"
+                className="img-center img-responsive"
               />
             </p>
             <p>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 import pictureSix from "@/images/diagrams-offlineme.gif";
@@ -50,11 +49,9 @@ const OnlineWorldModuleData = [
           <br></br>
           <h5 className="secondary-color">'Triple A Engine' (Cooper, 1998)</h5>
           <img
-            className="d-block mx-auto"
+            className="img-center img-responsive-90"
             src={pictureOne}
             alt="tripe-a-engine"
-            height="100%"
-            width="auto"
           />
           <br></br>
           <br></br>
@@ -87,11 +84,9 @@ const OnlineWorldModuleData = [
             <p>Think about the examples below:</p>
           </ul>
           <img
-            className="d-block mx-auto"
+            className="img-center img-responsive-90"
             src={pictureTwo}
             alt="Computer"
-            height="100%"
-            width="90%"
           />
           <p>
             Now that you have identified why you used the internet as a place
@@ -106,9 +101,7 @@ const OnlineWorldModuleData = [
           <img
             src={pictureThree}
             alt="computer-1"
-            height="100%"
-            width="90%"
-            className="d-block mx-auto"
+            className="img-center img-responsive-90"
           />
           <p>
             <a href={documentFour} target="_blank" rel="noopener noreferrer">
@@ -140,7 +133,7 @@ const OnlineWorldModuleData = [
             The panopticon is a design of building meaning that one person can
             see all those in the building.
           </p>
-          <img src={pictureFour} alt="panopticon" className="d-block mx-auto" />
+          <img src={pictureFour} alt="panopticon" className="img-center img-responsive" />
           <p>
             It is important to think about how we behave when we feel we might
             be being observed, compared to how we behave when we think no one is
@@ -178,7 +171,7 @@ const OnlineWorldModuleData = [
           <img
             src={pictureFive}
             alt="Offline and Online Behaviour"
-            className="d-block mx-auto"
+            className="img-center img-responsive"
           />
           <br></br>
           <p>Think about:</p>
@@ -239,9 +232,7 @@ const OnlineWorldModuleData = [
             <img
               src={pictureSix}
               alt="Offline me"
-              width="90%"
-              height="auto"
-              className="d-block mx-auto"
+              className="img-center img-responsive-90"
             />
           </p>
           <p>
@@ -252,9 +243,7 @@ const OnlineWorldModuleData = [
             <img
               src={pictureSeven}
               alt="online me"
-              width="90%"
-              height="auto"
-              className="d-block mx-auto"
+              className="img-center img-responsive-90"
             />
           </p>
           <p>

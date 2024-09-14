@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import document from "@/documents/Fantasy_Exercise_Fantasy diary.pdf";
 import pictureOne from "@/images/diagrams-surely.gif";
@@ -239,7 +238,7 @@ const FantasyModuleData = [
             Appropriate versus inappropriate fantasy
           </h4>
           <p>
-            <img src={pictureOne} alt="digram surley" />
+            <img src={pictureOne} alt="digram surley" className="img-center img-responsive"/>
           </p>
           <p>
             Well actually, you&nbsp;are&nbsp;harming yourself because you are

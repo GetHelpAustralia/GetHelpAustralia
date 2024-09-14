@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import documentOne from "@/documents/Sexual communication_Cycle of online grooming.pdf";
 import documentTwo from "@/documents/Sexual communication_responding to justifications.pdf";
@@ -163,11 +162,9 @@ const SexualCommunicationWithChildrenModuleData = [
             </p>
             <p>
               <img
-                className="mx-auto d-block"
+                className="img-center img-responsive-90"
                 src={image}
                 alt="The online environment"
-                height="auto"
-                width="50%"
               />
             </p>
             <br />

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 import imageTwo from "@/images/problematic-collecting-excercise-3a-graph.png";
@@ -298,7 +297,7 @@ const ProblematicCollectingModuleData = [
             <img
               src={imageOne}
               alt="scale"
-              style={{ height: "auto", maxWidth: "100%" }}
+              className="img-center img-responsive"
             />
           </p>
           <ol>
@@ -326,7 +325,7 @@ const ProblematicCollectingModuleData = [
             <img
               src={imageTwo}
               alt="graph"
-              style={{ height: "auto", maxWidth: "100%" }}
+              className="img-center img-responsive"
             />
           </p>
           <p>

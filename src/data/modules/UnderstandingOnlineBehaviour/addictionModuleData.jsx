@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import document from "@/documents/Addiction_Exercise_Addiction diary.pdf";
+import { Link } from "react-router-dom";
 
 const AddictionModuleData = [
   {
@@ -74,65 +73,42 @@ const AddictionModuleData = [
               images of children and using the definitions above think about
               whether they were compulsive or addictive?
             </p>
-            <table class="table table-bordered">
-              <tbody>
-                <tr>
-                  <td>Adult pornography</td>
-                  <td>
-                    Addictive
-                    <br />
-                    Compulsive
-                    <br />
-                    Neither
-                  </td>
-                </tr>
-                <tr>
-                  <td>Sexual images of children</td>
-                  <td>
-                    Addictive
-                    <br />
-                    Compulsive
-                    <br />
-                    Neither
-                  </td>
-                </tr>
-                <tr>
-                  <td>Chatting online sexually (with children or adults)</td>
-                  <td>
-                    Addictive
-                    <br />
-                    Compulsive
-                    <br />
-                    Neither
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            {/* <p>If you are still not sure here is a quiz that might help:</p>
-            Addiction Quiz
-            <p>&nbsp;</p>
-            <p>
-              The more questions you agree with, the more likely that you feel
-              addicted to your illegal online behaviour. If you agreed with any of
-              the statements, you might find this module helpful.
-            </p>
-            <ul className="content-list">
-              <li>
-                <span style={{ color: "#e10818" }}>
-                  Meeting 2-3 of the criteria indicates a mild addiction
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "#e10818" }}>
-                  Meeting 4-5 of the criteria indicates a moderate addiction
-                </span>
-              </li>
-              <li>
-                <span style={{ color: "#e10818" }}>
-                  Meeting 6-7 of the criteria indicates a severe addiction
-                </span>
-              </li>
-            </ul> */}
+            <div className="table-responsive">
+              <table className="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>Adult pornography</td>
+                    <td>
+                      Addictive
+                      <br />
+                      Compulsive
+                      <br />
+                      Neither
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sexual images of children</td>
+                    <td>
+                      Addictive
+                      <br />
+                      Compulsive
+                      <br />
+                      Neither
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Chatting online sexually (with children or adults)</td>
+                    <td>
+                      Addictive
+                      <br />
+                      Compulsive
+                      <br />
+                      Neither
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </>
       ),
@@ -147,7 +123,7 @@ const AddictionModuleData = [
         <div className="tab-main-content">
           <br></br>
           <h4 className="secondary-color">
-            It’s an addiction, so it’s not my fault – right?
+            It's an addiction, so it's not my fault – right?
           </h4>
           <br></br>
           <p>
@@ -156,7 +132,7 @@ const AddictionModuleData = [
             and the first time you engaged in this behaviour you made a decision
             to do so. It may have felt like it was harder to stop over time but
             each time you engaged in the behaviour you still had a choice.
-            What’s important is that you now see this and are doing something
+            What's important is that you now see this and are doing something
             about it.
           </p>{" "}
           <p>
@@ -187,7 +163,7 @@ const AddictionModuleData = [
               feel better?
             </li>
             <li>
-              If I didn’t get a rewarding feeling from my online behaviour why
+              If I didn't get a rewarding feeling from my online behaviour why
               did I repeat it?
             </li>
             <li>
@@ -207,7 +183,7 @@ const AddictionModuleData = [
             <a
               href="https://www.saa-australia.org/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="secondary-color"
             >
               Sex Addicts Anonymous (SAA)
@@ -216,7 +192,7 @@ const AddictionModuleData = [
             <a
               href="https://aa.org.au/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="secondary-color"
             >
               Alcoholic Anonymous (AA)
@@ -225,7 +201,7 @@ const AddictionModuleData = [
             <a
               href="https://gaaustralia.org.au/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="secondary-color"
             >
               Gamblers Anonymous (GA)
@@ -234,7 +210,7 @@ const AddictionModuleData = [
             <a
               href="https://www.na.org.au/multi/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="secondary-color"
             >
               Narcotics Anonymous (NA)
@@ -260,7 +236,7 @@ const AddictionModuleData = [
             </h4>
             <p>
               It is really important to look at the motivation for your
-              behaviour and the emotions you are avoiding. If you don’t you will
+              behaviour and the emotions you are avoiding. If you don't you will
               only mask the problem.
             </p>
             <p>
@@ -292,7 +268,7 @@ const AddictionModuleData = [
                 pass.
               </li>
               <li>
-                Fantasy blocker – think of “worst case” consequence – e.g.
+                Fantasy blocker – think of "worst case" consequence – e.g.
                 prison or being caught in the act by partner.
               </li>
               <li>
@@ -309,8 +285,8 @@ const AddictionModuleData = [
               A long term technique for managing addiction is self-care –
               including taking an interest in diet, social life, personal
               hygiene and exercise. Having an interest in this area can then be
-              drawn on to use in the above techniques e.g. for ‘active
-              distraction’ going to the gym or cooking a meal. Take a look at
+              drawn on to use in the above techniques e.g. for 'active
+              distraction' going to the gym or cooking a meal. Take a look at
               the&nbsp;{" "}
               <Link className="secondary-color" to="/self-care">
                 self-care{" "}
@@ -326,57 +302,60 @@ const AddictionModuleData = [
               the techniques which work well for you. Downloading the diary
               below can be a way of doing this.
             </p>
-            <table class="table table-bordered">
-              <tbody>
-                <tr>
-                  <td>
-                    <strong>Situation</strong>&nbsp;(day, time, mood, location)
-                  </td>
-                  <td>
-                    <strong>Strength of urge</strong>&nbsp;(1= low, 10 = high)
-                  </td>
-                  <td>
-                    <strong>Technique used</strong>
-                  </td>
-                  <td>
-                    <strong>Strength of urge after&nbsp;</strong>(1= low, 10 =
-                    high)
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <em>At home, late at night, bored and lonely</em>
-                  </td>
-                  <td>
-                    <em>10</em>
-                  </td>
-                  <td>
-                    <em>Active distraction – doing a Sudoku puzzle</em>
-                  </td>
-                  <td>
-                    <em>5</em>
-                  </td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="table-responsive">
+              <table className="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>Situation</strong>&nbsp;(day, time, mood,
+                      location)
+                    </td>
+                    <td>
+                      <strong>Strength of urge</strong>&nbsp;(1= low, 10 = high)
+                    </td>
+                    <td>
+                      <strong>Technique used</strong>
+                    </td>
+                    <td>
+                      <strong>Strength of urge after&nbsp;</strong>(1= low, 10 =
+                      high)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <em>At home, late at night, bored and lonely</em>
+                    </td>
+                    <td>
+                      <em>10</em>
+                    </td>
+                    <td>
+                      <em>Active distraction – doing a Sudoku puzzle</em>
+                    </td>
+                    <td>
+                      <em>5</em>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <p>
               <a
                 href={document}
