@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import selfEsteemAndAssertivenessModuleData from "@/data/modules/Wellbeing/selfEsteemAndAssertivenessModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Self-esteem and assertiveness.pdf";
 
 const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -91,6 +93,7 @@ const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self esteem and assertiveness</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

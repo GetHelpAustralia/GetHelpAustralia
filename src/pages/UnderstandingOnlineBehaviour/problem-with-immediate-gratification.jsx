@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblemOfImmediateModuleData from "@/data/modules/UnderstandingOnlineBehaviour/problemOfImmediateModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Problem of immediate gratification.pdf";
 
 const ProblemOfImmediateModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -86,6 +88,7 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Problem of immediate gratification</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

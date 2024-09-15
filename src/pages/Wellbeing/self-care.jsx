@@ -1,6 +1,8 @@
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Self-care.pdf";
 import {
   submitWellbeingScoreToNetlify,
   updateWellbeingScores,
@@ -129,6 +131,7 @@ const SelfCareModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self care</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

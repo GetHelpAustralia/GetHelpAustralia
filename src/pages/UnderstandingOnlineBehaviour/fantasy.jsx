@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import FantasyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Fantasy.pdf";
 
 const FantasyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -86,6 +88,7 @@ const FantasyModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Fantasy</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>

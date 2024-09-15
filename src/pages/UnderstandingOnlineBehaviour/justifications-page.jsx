@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import JustificationsModuleData from "@/data/modules/UnderstandingOnlineBehaviour/justificationsModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Justifications.pdf";
 
 const JustificationsModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -87,6 +89,7 @@ const JustificationsModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Justifications</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>

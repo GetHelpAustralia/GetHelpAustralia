@@ -1,6 +1,8 @@
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Recognising and dealing with feelings.pdf";
 import { updateEmotionScores } from "@/context/emotionScoreSlice";
 import RecognisingAndDealingWithFeelingsModuleData from "@/data/modules/Wellbeing/recognisingAndDealingWithFeelingsModuleData";
 import { useEffect, useState } from "react";
@@ -183,6 +185,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Recognising and dealing with feelings
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

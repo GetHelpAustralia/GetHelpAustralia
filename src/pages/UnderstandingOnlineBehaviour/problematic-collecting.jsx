@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblematicCollectingModuleData from "@/data/modules/UnderstandingOnlineBehaviour/problematicCollectingModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Problematic Collecting.pdf";
 
 const ProblematicCollectingModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -87,6 +89,7 @@ const ProblematicCollectingModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Problematic collecting</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

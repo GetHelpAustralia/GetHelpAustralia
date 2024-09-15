@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import AddictionModuleData from "@/data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Addiction.pdf";
 
 const AddictionModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -87,6 +89,7 @@ const AddictionModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Addiction</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import triggersModuleData from "@/data/modules/UnderstandingOnlineBehaviour/triggersModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Triggers.pdf";
 
 const TriggersModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -88,6 +90,7 @@ const TriggersModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Triggers</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

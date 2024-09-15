@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import MotivationForChangeModuleData from "@/data/modules/Wellbeing/motivationForChangeModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Motivation to change.pdf";
 
 const MotivationForChangeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -91,6 +93,7 @@ const MotivationForChangeModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Helping you motivate yourself and manage change
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

@@ -151,7 +151,8 @@ h6 {
 
 #continue-button,
 #next-button,
-#previous-button {
+#previous-button,
+#print-button {
   background-color: var(--clr-primary);
   color: var(--clr-white);
   cursor: pointer;
@@ -161,6 +162,18 @@ h6 {
     background-color: var(--clr-white);
     color: var(--clr-primary);
     border: solid 2px var(--clr-primary);
+  }
+}
+
+#print-button {
+  background-color: var(--clr-secondary);
+  color: var(--clr-white);
+  border-radius: 0;
+
+  &:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-secondary);
+    border: solid 2px var(--clr-secondary);
   }
 }
 

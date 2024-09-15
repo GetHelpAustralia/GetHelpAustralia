@@ -9,6 +9,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Understanding Why.pdf";
 
 const UnderstandingWhyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -134,6 +136,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Understanding why</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

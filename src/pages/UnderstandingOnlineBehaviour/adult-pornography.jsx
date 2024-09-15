@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import AdultPornographyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Adult pornography.pdf";
 
 const AdultPornographyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -88,6 +90,7 @@ const AdultPornographyModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Adult Pornography</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

@@ -6,6 +6,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import selfTalkModuleData from "@/data/modules/Wellbeing/selfTalkModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Self-talk.pdf";
 
 const SelfTalkModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -90,6 +92,7 @@ const SelfTalkModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self-talk</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

@@ -6,6 +6,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import DisclosureModuleData from "@/data/modules/MovingFoward/consequencesMediaAndDisclosureModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Consequences, media impact and disclosure.pdf";
 
 const ConsequencesMediaDisclosureModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -92,6 +94,7 @@ const ConsequencesMediaDisclosureModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Consequences, media impact and disclosure
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

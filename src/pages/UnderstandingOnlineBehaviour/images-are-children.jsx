@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ImagesAreChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Images are children.pdf";
 
 const ImagesAreChildrenModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -87,6 +89,7 @@ const ImagesAreChildrenModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Images are children</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

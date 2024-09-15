@@ -4,6 +4,8 @@ import Module from "@/components/Module";
 import BuildingAGoodLifeModuleData from "@/data/modules/MovingFoward/buildingAGoodLifeModuleData";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Building a good life.pdf";
 
 const BuildingAGoodLifeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -88,6 +90,7 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Building a good life</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

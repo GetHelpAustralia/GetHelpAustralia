@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import RelapsePreventionModuleData from "@/data/modules/MovingFoward/relapsePreventionModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Relapse prevention.pdf";
 
 const RelapsePreventionModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -88,6 +90,7 @@ const RelapsePreventionModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Relapse prevention</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

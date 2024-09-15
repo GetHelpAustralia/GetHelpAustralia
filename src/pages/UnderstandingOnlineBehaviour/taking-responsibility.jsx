@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import takingResponsibilityModuleData from "@/data/modules/UnderstandingOnlineBehaviour/takingResponsibilityModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Taking Control Of Your Online Behaviour.pdf";
 
 const TakingResponsibilityModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -90,6 +92,7 @@ const TakingResponsibilityModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Taking control of your online behaviour
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

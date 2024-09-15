@@ -6,6 +6,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblemSolvingModuleData from "@/data/modules/MovingFoward/problemSolvingModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Problem solving.pdf";
 
 const ProblemSolvingModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -89,6 +91,7 @@ const ProblemSolvingModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Problem solving</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

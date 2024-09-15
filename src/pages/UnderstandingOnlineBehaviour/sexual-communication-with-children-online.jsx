@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import SexualCommunicationWithChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Sexual Communication With Children Online.pdf";
 
 const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -90,6 +92,7 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Sexual communication with children online
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

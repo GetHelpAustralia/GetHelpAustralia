@@ -2,6 +2,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import GuiltAndShameModuleData from "@/data/modules/Wellbeing/guiltAndShameModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Guilt and shame.pdf";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -89,6 +91,7 @@ const GuiltAndShameModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Guilt and shame</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

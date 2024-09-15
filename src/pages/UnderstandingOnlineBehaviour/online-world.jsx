@@ -4,6 +4,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import onlineWorldModuleData from "@/data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Online World.pdf";
 
 const OnlineWorldModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -89,6 +91,7 @@ const OnlineWorldModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Online World</h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>

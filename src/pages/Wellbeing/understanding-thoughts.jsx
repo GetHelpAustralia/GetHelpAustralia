@@ -7,6 +7,8 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import UnderstandingThoughtsModuleData from "@/data/modules/Wellbeing/understandingThoughtsModuleData";
+import PrintButton from "@/components/PrintButton";
+import document from "@/documents/print/Understanding thoughts feelings and behaviours.pdf";
 
 const UnderstandingThoughtsModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -94,6 +96,7 @@ const UnderstandingThoughtsModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Understanding thoughts, feelings and behaviours
         </h2>
+        <PrintButton document={document} />
       </Heading>
       <MainContent>
         <br></br>
