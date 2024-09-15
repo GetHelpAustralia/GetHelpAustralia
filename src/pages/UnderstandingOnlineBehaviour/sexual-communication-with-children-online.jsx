@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import SexualCommunicationWithChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Sexual Communication With Children Online.pdf";
+import document from "@/documents/print/Sexualcommunicationwithchildrenonline.pdf";
 
 const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

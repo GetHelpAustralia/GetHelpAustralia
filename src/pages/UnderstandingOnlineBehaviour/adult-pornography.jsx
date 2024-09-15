@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import AdultPornographyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Adult pornography.pdf";
+import document from "@/documents/print/Adultpornography.pdf";
 
 const AdultPornographyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import onlineWorldModuleData from "@/data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Online World.pdf";
+import document from "@/documents/print/OnlineWorld.pdf";
 
 const OnlineWorldModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

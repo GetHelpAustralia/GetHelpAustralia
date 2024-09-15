@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ImagesAreChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Images are children.pdf";
+import document from "@/documents/print/Imagesarechildren.pdf";
 
 const ImagesAreChildrenModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

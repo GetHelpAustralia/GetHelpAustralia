@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import takingResponsibilityModuleData from "@/data/modules/UnderstandingOnlineBehaviour/takingResponsibilityModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Taking Control Of Your Online Behaviour.pdf";
+import document from "@/documents/print/Takingcontrolofyouronlinebehaviour.pdf";
 
 const TakingResponsibilityModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

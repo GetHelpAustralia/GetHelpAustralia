@@ -8,7 +8,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ManagingThoughtsModuleData from "@/data/modules/Wellbeing/managingThoughtsModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Managing thoughts feelings and behaviours.pdf";
+import document from "@/documents/print/Managingthoughtsfeelingsandbehaviours.pdf";
 
 const ManagingThoughtsModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

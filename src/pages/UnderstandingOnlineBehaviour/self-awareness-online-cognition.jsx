@@ -3,8 +3,6 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import onlineCognitionData from "@/data/modules/assessments/onlineCognitionData";
-import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Self Awareness Online Cognition.pdf";
 
 const SelfAwarenessOnlineCognition = ({ showMenu }) => {
   useEffect(() => {
@@ -15,7 +13,6 @@ const SelfAwarenessOnlineCognition = ({ showMenu }) => {
       <Heading>
         <h2 className="secondary-color mb-3">
           Get Help! Australia - Self Awareness: GPIUS
-          <PrintButton document={document} />
         </h2>
       </Heading>
       <MainContent>

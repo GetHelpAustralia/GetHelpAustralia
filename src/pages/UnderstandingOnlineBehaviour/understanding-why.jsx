@@ -10,7 +10,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Understanding Why.pdf";
+import document from "@/documents/print/Understandingwhy.pdf";
 
 const UnderstandingWhyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
