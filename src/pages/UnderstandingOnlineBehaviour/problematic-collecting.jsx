@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblematicCollectingModuleData from "@/data/modules/UnderstandingOnlineBehaviour/problematicCollectingModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Problematiccollecting.pdf";
+import document from "@/print/Problematiccollecting.pdf";
 
 const ProblematicCollectingModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import triggersModuleData from "@/data/modules/UnderstandingOnlineBehaviour/triggersModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Triggers.pdf";
+import document from "@/print/Triggers.pdf";
 
 const TriggersModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import FantasyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Fantasy.pdf";
+import document from "@/print/Fantasy.pdf";
 
 const FantasyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

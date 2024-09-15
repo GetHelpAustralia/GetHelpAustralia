@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import MotivationForChangeModuleData from "@/data/modules/Wellbeing/motivationForChangeModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Motivationtochange.pdf";
+import document from "@/print/Motivationtochange.pdf";
 
 const MotivationForChangeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

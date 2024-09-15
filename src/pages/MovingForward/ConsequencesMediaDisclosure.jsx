@@ -7,7 +7,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import DisclosureModuleData from "@/data/modules/MovingFoward/consequencesMediaAndDisclosureModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Consequencesmediaimpactanddisclosure.pdf";
+import document from "@/print/Consequencesmediaimpactanddisclosure.pdf";
 
 const ConsequencesMediaDisclosureModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

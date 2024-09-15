@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblemOfImmediateModuleData from "@/data/modules/UnderstandingOnlineBehaviour/problemOfImmediateModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Problemofimmediategratification.pdf";
+import document from "@/print/Problemofimmediategratification.pdf";
 
 const ProblemOfImmediateModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

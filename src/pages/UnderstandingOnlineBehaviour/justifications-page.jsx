@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import JustificationsModuleData from "@/data/modules/UnderstandingOnlineBehaviour/justificationsModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Justifications.pdf";
+import document from "@/print/Justifications.pdf";
 
 const JustificationsModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

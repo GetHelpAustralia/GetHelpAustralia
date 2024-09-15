@@ -5,7 +5,7 @@ import BuildingAGoodLifeModuleData from "@/data/modules/MovingFoward/buildingAGo
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Buildingagoodlife.pdf";
+import document from "@/print/Buildingagoodlife.pdf";
 
 const BuildingAGoodLifeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

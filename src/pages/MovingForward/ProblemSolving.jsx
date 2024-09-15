@@ -6,7 +6,7 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import ProblemSolvingModuleData from "@/data/modules/MovingFoward/problemSolvingModuleData";
-import document from "@/documents/print/Problemsolving.pdf";
+import document from "@/print/Problemsolving.pdf";
 import PrintButton from "@/components/PrintButton";
 
 const ProblemSolvingModule = ({ showMenu }) => {

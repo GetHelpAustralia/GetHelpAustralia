@@ -5,7 +5,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import selfEsteemAndAssertivenessModuleData from "@/data/modules/Wellbeing/selfEsteemAndAssertivenessModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Self-esteemandassertiveness.pdf";
+import document from "@/print/Self-esteemandassertiveness.pdf";
 
 const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

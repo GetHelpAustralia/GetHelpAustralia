@@ -7,7 +7,7 @@ import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import selfTalkModuleData from "@/data/modules/Wellbeing/selfTalkModuleData";
 import PrintButton from "@/components/PrintButton";
-import document from "@/documents/print/Self-talk.pdf";
+import document from "@/print/Self-talk.pdf";
 
 const SelfTalkModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
