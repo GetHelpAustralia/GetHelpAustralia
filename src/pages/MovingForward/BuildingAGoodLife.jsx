@@ -4,8 +4,8 @@ import Module from "@/components/Module";
 import BuildingAGoodLifeModuleData from "@/data/modules/MovingFoward/buildingAGoodLifeModuleData";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import PrintButton from "@/components/PrintButton";
 import document from "@/documents/print/Building a good life.pdf";
+import PrintButton from "@/components/PrintButton";
 
 const BuildingAGoodLifeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
