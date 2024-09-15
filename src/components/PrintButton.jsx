@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/components/button";
+import Button from "./Button";
 import { BsFilePdf } from "react-icons/bs";
 export default function PrintButton({ document }) {
   return (
