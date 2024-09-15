@@ -18,6 +18,7 @@ export default {
       "@context": path.resolve(__dirname, "src/context"),
       "@data": path.resolve(__dirname, "src/data"),
       "@documents": path.resolve(__dirname, "src/documents"),
+      "@documents/print": path.resolve(__dirname, "src/documents/print"),
       "@font": path.resolve(__dirname, "src/font"),
       "@images": path.resolve(__dirname, "src/images"),
       "@pages": path.resolve(__dirname, "src/pages"),
