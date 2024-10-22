@@ -19,19 +19,59 @@ const ResourcesData = () => {
         chat.{" "}
       </p>
       <br></br>
-      <h2 className="secondary-color">Additional Support Services</h2>
+      <h2 className="secondary-color">
+        Please contact the following services for further assistance
+      </h2>
       <br></br>
-      <p>Crisis support - 1800RESPECT - 1800 727 732</p>
-      <p>Crisis support - Lifeline - 13 11 14</p>
-      <p>Crisis support (First Nations people) - 1800YARN - 13 92 76</p>
-      <p>Crisis support - Beyond Blue - 1300 22 4636</p>
-      <p>Counselling - Stop It Now! Australia - 180001 1800 </p>
-      <p>Counselling - MensLine - 1300 789 978</p>
-      <p>Counselling - QLife - LGBTQIA+ people - 1800 184 527</p>
-      <p>
-        Counselling - National counselling and referral service - Disabiltiy -
-        1800 421 468
-      </p>
+      <ul className="content-list">
+        <li>
+          <a href="http://www.stopitnow.org.au">
+            Stop It Now! Australia: 1800 01 1800
+          </a>
+        </li>
+        <li>
+          <a href="http://www.lifeline.org.au">Lifeline Australia: 13 11 14</a>
+        </li>
+        <li>
+          <a href="http://www.beyondblue.org.au">Beyond Blue: 1300 22 4636</a>
+        </li>
+        <li>
+          <a href="http://www.fullstop.org.au">
+            Full Stop Australia: 1800 943 539
+          </a>
+        </li>
+        <li>
+          <a href="http://www.relationships.org.au">
+            Relationships Australia: 1300 364 277
+          </a>
+        </li>
+        <li>
+          <a href="http://www.1800respect.org.au">
+            National Sexual Assault and Domestic Family Violence Counselling
+            Service (1800RESPECT): 1800 737 732
+          </a>
+        </li>
+        <li>
+          <a href="http://www.ntv.org.au">
+            Men’s Referral Service: 1300 766 491
+          </a>
+        </li>
+        <li>
+          <a href="http://www.sane.org">SANE Australia: 1800 187 263</a>
+        </li>
+        <li>
+          <a href="http://www.partnerspeak.org.au">
+            PartnerSPEAK: 1300 590 589
+          </a>
+        </li>
+        <li>
+          13YARN: 13 92 76 (for Aboriginal and/or Torres Strait Islander people)
+        </li>
+        <li>
+          Rainbow Sexual, Domestic and Family Violence Helpline: 1800 497 212
+          (for anyone from the LGBTIQA+ community)
+        </li>
+      </ul>
       <br />
     </>
   );

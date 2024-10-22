@@ -1,4 +1,9 @@
-@use "~bootstrap/scss/bootstrap";
+// Forward Bootstrap styles
+@forward "~bootstrap/scss/bootstrap";
+
+// Your custom styles
 @use "./custom";
 @use "./responsive-images";
 @use "../font/stylesheet";
+
+// You can add any Bootstrap variable overrides or custom styles here
