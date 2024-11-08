@@ -44,23 +44,6 @@ const UnderstandingWhyModule = ({ showMenu }) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
-  const submitStartingPointForm = async (formData) => {
-    formData.append("form-name", "startingPoint-quiz");
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      });
-      if (!response.ok) throw new Error("StartingPoint form submission failed");
-      console.log("StartingPoint form submitted successfully");
-      return true;
-    } catch (error) {
-      console.error("StartingPoint form submission error:", error);
-      return false;
-    }
-  };
-
   const submitReflectionForm = async () => {
     const reflectionFormData = new FormData();
     reflectionFormData.append("form-name", "understanding-why-reflection-form");
@@ -95,17 +78,17 @@ const UnderstandingWhyModule = ({ showMenu }) => {
       );
 
       try {
-        const startingPointSubmitted = await submitStartingPointForm(
-          startingPointFormData
-        );
+        // Submit startingPoint form through Redux only
+        await dispatch(
+          submitStartingPointScoreToNetlify(startingPointFormData)
+        ).unwrap();
         const reflectionSubmitted = await submitReflectionForm();
 
-        if (startingPointSubmitted && reflectionSubmitted) {
+        if (reflectionSubmitted) {
           console.log("Both forms submitted successfully");
-          dispatch(submitStartingPointScoreToNetlify(startingPointFormData));
           return true;
         } else {
-          throw new Error("One or both form submissions failed");
+          throw new Error("Reflection form submission failed");
         }
       } catch (error) {
         console.error("Form submission error:", error);
