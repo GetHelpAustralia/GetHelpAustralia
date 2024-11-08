@@ -2,7 +2,10 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import PrintButton from "@/components/PrintButton";
-import { updateStartingPointScores } from "@/context/startingPointScoreSlice";
+import {
+  submitStartingPointScoreToNetlify,
+  updateStartingPointScores,
+} from "@/context/startingPointScoreSlice";
 import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 import document from "@/print/Understandingwhy.pdf";
 import { useEffect, useState } from "react";
@@ -42,6 +45,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
   };
 
   const submitStartingPointForm = async (formData) => {
+    formData.append("form-name", "startingPoint-quiz");
     try {
       const response = await fetch("/", {
         method: "POST",
@@ -82,24 +86,15 @@ const UnderstandingWhyModule = ({ showMenu }) => {
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
       const startingPointFormData = new FormData();
-
-      // Add form name first
-      startingPointFormData.append("form-name", "startingPoint-quiz");
-
-      // Add all the scores
       Object.entries(startingPointData).forEach(([key, value]) => {
         startingPointFormData.append(key, value);
       });
-
-      // Add total score
-      const totalScore = Object.values(startingPointData).reduce(
-        (a, b) => a + b,
-        0
+      startingPointFormData.append(
+        "startingPointTotalScore",
+        Object.values(startingPointData).reduce((a, b) => a + b, 0)
       );
-      startingPointFormData.append("startingPointTotalScore", totalScore);
 
       try {
-        // Submit both forms
         const startingPointSubmitted = await submitStartingPointForm(
           startingPointFormData
         );
@@ -107,10 +102,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
 
         if (startingPointSubmitted && reflectionSubmitted) {
           console.log("Both forms submitted successfully");
-          // Update Redux state after successful submission
-          dispatch(
-            updateStartingPointScores(Object.fromEntries(startingPointFormData))
-          );
+          dispatch(submitStartingPointScoreToNetlify(startingPointFormData));
           return true;
         } else {
           throw new Error("One or both form submissions failed");
