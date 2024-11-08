@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import PrintButton from "@/components/PrintButton";
 import {
   submitStartingPointScoreToNetlify,
   updateStartingPointScores,
 } from "@/context/startingPointScoreSlice";
-import Heading from "@/components/Heading";
-import MainContent from "@/components/MainContent";
-import Module from "@/components/Module";
 import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
-import PrintButton from "@/components/PrintButton";
 import document from "@/print/Understandingwhy.pdf";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const UnderstandingWhyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -34,9 +34,9 @@ const UnderstandingWhyModule = ({ showMenu }) => {
   }, []);
 
   const handleContinue = (step, data) => {
-    if (data && data["startingPoint-assessment"]) {
-      setStartingPointData(data["startingPoint-assessment"]);
-      dispatch(updateStartingPointScores(data["startingPoint-assessment"]));
+    if (data && data["startingPoint-quiz"]) {
+      setStartingPointData(data["startingPoint-quiz"]);
+      dispatch(updateStartingPointScores(data["startingPoint-quiz"]));
     }
   };
 
@@ -45,7 +45,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
   };
 
   const submitStartingPointForm = async (formData) => {
-    formData.append("form-name", "startingPoint-assessment");
+    formData.append("form-name", "startingPoint-quiz");
     try {
       const response = await fetch("/", {
         method: "POST",
