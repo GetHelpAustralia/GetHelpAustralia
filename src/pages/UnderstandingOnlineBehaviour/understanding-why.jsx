@@ -2,10 +2,7 @@ import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import PrintButton from "@/components/PrintButton";
-import {
-  submitStartingPointScoreToNetlify,
-  updateStartingPointScores,
-} from "@/context/startingPointScoreSlice";
+import { updateStartingPointScores } from "@/context/startingPointScoreSlice";
 import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 import document from "@/print/Understandingwhy.pdf";
 import { useEffect, useState } from "react";
@@ -44,6 +41,22 @@ const UnderstandingWhyModule = ({ showMenu }) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
+  const submitStartingPointForm = async (formData) => {
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+      if (!response.ok) throw new Error("StartingPoint form submission failed");
+      console.log("StartingPoint form submitted successfully");
+      return true;
+    } catch (error) {
+      console.error("StartingPoint form submission error:", error);
+      return false;
+    }
+  };
+
   const submitReflectionForm = async () => {
     const reflectionFormData = new FormData();
     reflectionFormData.append("form-name", "understanding-why-reflection-form");
@@ -69,26 +82,38 @@ const UnderstandingWhyModule = ({ showMenu }) => {
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
       const startingPointFormData = new FormData();
+
+      // Add form name first
+      startingPointFormData.append("form-name", "startingPoint-quiz");
+
+      // Add all the scores
       Object.entries(startingPointData).forEach(([key, value]) => {
         startingPointFormData.append(key, value);
       });
-      startingPointFormData.append(
-        "startingPointTotalScore",
-        Object.values(startingPointData).reduce((a, b) => a + b, 0)
+
+      // Add total score
+      const totalScore = Object.values(startingPointData).reduce(
+        (a, b) => a + b,
+        0
       );
+      startingPointFormData.append("startingPointTotalScore", totalScore);
 
       try {
-        // Submit startingPoint form through Redux only
-        await dispatch(
-          submitStartingPointScoreToNetlify(startingPointFormData)
-        ).unwrap();
+        // Submit both forms
+        const startingPointSubmitted = await submitStartingPointForm(
+          startingPointFormData
+        );
         const reflectionSubmitted = await submitReflectionForm();
 
-        if (reflectionSubmitted) {
+        if (startingPointSubmitted && reflectionSubmitted) {
           console.log("Both forms submitted successfully");
+          // Update Redux state after successful submission
+          dispatch(
+            updateStartingPointScores(Object.fromEntries(startingPointFormData))
+          );
           return true;
         } else {
-          throw new Error("Reflection form submission failed");
+          throw new Error("One or both form submissions failed");
         }
       } catch (error) {
         console.error("Form submission error:", error);
