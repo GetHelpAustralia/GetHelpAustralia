@@ -185,7 +185,10 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Recognising and dealing with feelings
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Recognising and dealing with feelings"
+        />
       </Heading>
       <MainContent>
         <br></br>
