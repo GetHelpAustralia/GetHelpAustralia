@@ -92,7 +92,7 @@ const SelfTalkModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self-talk</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Self talk" />
       </Heading>
       <MainContent>
         <br></br>

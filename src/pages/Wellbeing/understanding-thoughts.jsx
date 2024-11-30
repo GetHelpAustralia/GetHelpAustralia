@@ -96,7 +96,10 @@ const UnderstandingThoughtsModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Understanding thoughts, feelings and behaviours
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Understanding thoughts, feelings and behaviours"
+        />
       </Heading>
       <MainContent>
         <br></br>

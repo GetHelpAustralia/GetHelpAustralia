@@ -93,7 +93,10 @@ const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self esteem and assertiveness</h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Self esteem and assertiveness"
+        />
       </Heading>
       <MainContent>
         <br></br>

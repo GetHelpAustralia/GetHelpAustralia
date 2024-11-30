@@ -131,7 +131,7 @@ const SelfCareModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Self care</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Self care" />
       </Heading>
       <MainContent>
         <br></br>

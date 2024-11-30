@@ -93,7 +93,10 @@ const MotivationForChangeModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Helping you motivate yourself and manage change
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Helping you motivate yourself and manage change"
+        />
       </Heading>
       <MainContent>
         <br></br>
