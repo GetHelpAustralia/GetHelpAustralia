@@ -92,7 +92,7 @@ const GuiltAndShameModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Guilt and shame</h2>
-        <PrintButton document={document} context="guilt-and-shame" />
+        <PrintButton document={document} context="guilt and shame" />
       </Heading>
       <MainContent>
         <br></br>
