@@ -94,7 +94,10 @@ const ConsequencesMediaDisclosureModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Consequences, media impact and disclosure
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Consequences, media impact and disclosure"
+        />
       </Heading>
       <MainContent>
         <br></br>

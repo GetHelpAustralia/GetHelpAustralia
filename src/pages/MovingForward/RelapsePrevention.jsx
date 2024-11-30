@@ -90,7 +90,7 @@ const RelapsePreventionModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Relapse prevention</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Relapse prevention" />
       </Heading>
       <MainContent>
         <br></br>

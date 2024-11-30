@@ -91,7 +91,7 @@ const ProblemSolvingModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Problem solving</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Problem solving" />
       </Heading>
       <MainContent>
         <br></br>

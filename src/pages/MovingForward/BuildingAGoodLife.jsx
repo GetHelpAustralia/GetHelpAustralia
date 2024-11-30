@@ -90,7 +90,7 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Building a good life</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Building a good life" />
       </Heading>
       <MainContent>
         <br></br>
