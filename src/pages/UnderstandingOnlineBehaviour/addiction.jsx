@@ -89,7 +89,7 @@ const AddictionModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Addiction</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Addiction" />
       </Heading>
       <MainContent>
         <br></br>

@@ -92,7 +92,10 @@ const TakingResponsibilityModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Taking control of your online behaviour
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Taking control of your online behaviour"
+        />
       </Heading>
       <MainContent>
         <br></br>

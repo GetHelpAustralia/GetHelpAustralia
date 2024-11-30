@@ -136,7 +136,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Understanding why</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Understanding why" />
       </Heading>
       <MainContent>
         <br></br>

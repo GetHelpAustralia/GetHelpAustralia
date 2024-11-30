@@ -90,7 +90,7 @@ const AdultPornographyModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Adult Pornography</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Adult pornography" />
       </Heading>
       <MainContent>
         <br></br>

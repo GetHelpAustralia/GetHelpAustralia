@@ -88,7 +88,10 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Problem of immediate gratification</h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Problem of immediate gratification"
+        />
       </Heading>
       <MainContent>
         <br></br>

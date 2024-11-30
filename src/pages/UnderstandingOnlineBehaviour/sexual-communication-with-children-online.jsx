@@ -92,7 +92,10 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Sexual communication with children online
         </h2>
-        <PrintButton document={document} />
+        <PrintButton
+          document={document}
+          context="Sexual communication with children online"
+        />
       </Heading>
       <MainContent>
         <br></br>

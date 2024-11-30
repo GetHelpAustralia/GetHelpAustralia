@@ -89,7 +89,7 @@ const ProblematicCollectingModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Problematic collecting</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Problematic collecting" />
       </Heading>
       <MainContent>
         <br></br>

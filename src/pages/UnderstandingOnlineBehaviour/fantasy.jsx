@@ -88,7 +88,7 @@ const FantasyModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Fantasy</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Fantasy" />
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>

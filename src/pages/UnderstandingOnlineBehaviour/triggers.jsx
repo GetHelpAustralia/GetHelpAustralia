@@ -90,7 +90,7 @@ const TriggersModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Triggers</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Triggers" />
       </Heading>
       <MainContent>
         <br></br>

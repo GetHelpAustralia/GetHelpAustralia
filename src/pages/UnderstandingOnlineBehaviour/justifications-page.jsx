@@ -89,7 +89,7 @@ const JustificationsModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Justifications</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Justifications" />
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>

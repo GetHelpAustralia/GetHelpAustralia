@@ -89,7 +89,7 @@ const ImagesAreChildrenModule = ({ showMenu }) => {
     <>
       <Heading>
         <h2 className="secondary-color">Images are children</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Images are children" />
       </Heading>
       <MainContent>
         <br></br>

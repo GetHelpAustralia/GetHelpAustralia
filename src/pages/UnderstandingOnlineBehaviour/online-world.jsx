@@ -91,7 +91,7 @@ const OnlineWorldModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Online World</h2>
-        <PrintButton document={document} />
+        <PrintButton document={document} context="Online world" />
       </Heading>
       <MainContent>
         <br></br>
