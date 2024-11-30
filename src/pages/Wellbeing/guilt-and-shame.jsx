@@ -86,30 +86,13 @@ const GuiltAndShameModule = ({ showMenu }) => {
     onQuestionChange: handleQuestionChange,
   };
 
-  const handleButtonClick = async () => {
-    // Capture the click event
-    const formData = new FormData();
-    formData.append(
-      "form-name",
-      "recognising-and-dealing-with-feelings-pdf-button"
-    );
-    formData.append("timestamp", new Date().toISOString());
-
-    // Send the data to Netlify
-    await fetch("/", {
-      method: "POST",
-      body: formData,
-    });
-
-    console.log(`button clicked!`);
-  };
   return (
     <>
       <Heading>
         <br></br>
         <br></br>
         <h2 className="secondary-color">Guilt and shame</h2>
-        <PrintButton document={document} onSubmit={handleButtonClick} />
+        <PrintButton document={document} context="guilt-and-shame" />
       </Heading>
       <MainContent>
         <br></br>

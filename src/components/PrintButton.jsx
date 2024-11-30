@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { BsFilePdf } from "react-icons/bs";
-export default function PrintButton({ document }) {
+export default function PrintButton({ document, context }) {
   return (
     <a
       className="default-link"
@@ -12,6 +12,7 @@ export default function PrintButton({ document }) {
       <Button
         id="print-button"
         className="d-flex flex-row items-center rounded"
+        context={context}
       >
         <span className="p-1">
           <BsFilePdf />
