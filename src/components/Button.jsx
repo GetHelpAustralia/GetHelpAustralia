@@ -4,6 +4,7 @@ const Button = ({ classes, context, children, ...rest }) => {
     const formData = new FormData();
     formData.append("form-name", "pdf-button-clicks");
     formData.append("context", context);
+    formData.append("document", document);
     formData.append("timestamp", new Date().toISOString());
 
     // Send the data to Netlify
