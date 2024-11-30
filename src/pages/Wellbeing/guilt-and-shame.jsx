@@ -91,9 +91,9 @@ const GuiltAndShameModule = ({ showMenu }) => {
     const formData = new FormData();
     formData.append(
       "form-name",
-      "recognising-and-dealing-with-feelings-button"
+      "recognising-and-dealing-with-feelings-pdf-button"
     );
-    formData.append("buttonName", buttonName);
+    formData.append("timestamp", new Date().toISOString());
 
     // Send the data to Netlify
     await fetch("/", {
@@ -101,7 +101,7 @@ const GuiltAndShameModule = ({ showMenu }) => {
       body: formData,
     });
 
-    console.log(`${buttonName} button clicked!`);
+    console.log(`button clicked!`);
   };
   return (
     <>
