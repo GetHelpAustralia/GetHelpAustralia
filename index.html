@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <link
       rel="preload"
@@ -130,6 +136,7 @@
 
     <form name="pdf-button-clicks" netlify netlify-honeypot="bot-field" hidden>
       <input type="hidden" name="form-name" value="pdf-button-clicks" />
+      <input type="text" name="uniqueId" />
       <input type="text" name="timestamp" />
       <input type="text" name="context" />
     </form>
