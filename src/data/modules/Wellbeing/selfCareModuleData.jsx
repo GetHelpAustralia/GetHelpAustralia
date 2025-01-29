@@ -49,8 +49,8 @@ const SelfCareModuleData = [
             less likely to offend or re-offend. People often tell us that when
             they offended, their relationships with themselves and other people
             are strained. Focusing on self-care can help us to see ourselves in
-            a more pleadsant light and this can help to improve our
-            relationships with others.
+            a more pleasant light and this can help to improve our relationships
+            with others.
           </p>
         </>
       ),
