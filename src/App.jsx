@@ -3,6 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 import { store } from "./context/store";
 
 // Analytics
+import PostHogPageViewTracker from "./analytics/PostHogPageViewTracker";
+import GoogleAnalytics from "./analytics/GoogleAnalytics";
 
 // Components
 import AppRoutes from "./components/AppRoutes";
@@ -16,8 +18,8 @@ function App() {
     <Provider store={store}>
       <div className="wrapper">
         <BrowserRouter>
-          {/* <PostHogPageViewTracker />
-          <GoogleAnalytics /> */}
+          <PostHogPageViewTracker />
+          <GoogleAnalytics />
           <ScrollToTop />
           <Header />
           <Help />
