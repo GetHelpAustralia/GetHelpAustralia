@@ -25,3 +25,6 @@ dist-ssr
 .env*
 .aider*
 .cursorrules*
+
+# Local rebrand implementation roadmap; intentionally not versioned
+/REBRAND_IMPLEMENTATION_PLAN.md
