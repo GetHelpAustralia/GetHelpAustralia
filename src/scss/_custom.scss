@@ -205,6 +205,7 @@ strong,
 }
 
 #explore-button,
+#help-button,
 #about-button,
 #submit-button,
 .outline-button,
@@ -239,35 +240,35 @@ strong,
   }
 }
 
-#help-button {
-  background: var(--highlight);
-  background-image: none;
-  color: var(--text-primary);
-  border: solid 2px var(--highlight);
+// #help-button {
+//   background: var(--highlight);
+//   background-image: none;
+//   color: var(--text-primary);
+//   border: solid 2px var(--highlight);
 
-  &:hover {
-    background: var(--action);
-    background-image: none;
-    color: var(--text-on-action);
-    border-color: var(--action);
-  }
+//   &:hover {
+//     background: var(--action);
+//     background-image: none;
+//     color: var(--text-on-action);
+//     border-color: var(--action);
+//   }
 
-  &:active {
-    background: var(--surface-highlight);
-    background-image: none;
-    color: var(--text-primary);
-    border-color: var(--highlight);
-  }
+//   &:active {
+//     background: var(--surface-highlight);
+//     background-image: none;
+//     color: var(--text-primary);
+//     border-color: var(--highlight);
+//   }
 
-  &:disabled,
-  &.disabled {
-    background: var(--surface-highlight);
-    background-image: none;
-    color: var(--text-primary);
-    border-color: var(--surface-highlight);
-    cursor: not-allowed;
-  }
-}
+//   &:disabled,
+//   &.disabled {
+//     background: var(--surface-highlight);
+//     background-image: none;
+//     color: var(--text-primary);
+//     border-color: var(--surface-highlight);
+//     cursor: not-allowed;
+//   }
+// }
 
 #print-button {
   border-radius: 0;
