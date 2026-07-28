@@ -37,11 +37,6 @@
     var(--brand-teal) 100%
   );
   --action-surface-disabled: #52677e;
-  --gradient-footer: linear-gradient(
-    135deg,
-    var(--brand-navy),
-    var(--brand-blue)
-  );
   --ff-primary: "General Sans", sans-serif;
   --ff-display: "Rubik", sans-serif;
   --transition: all 0.3s linear;
@@ -412,7 +407,7 @@ strong,
 }
 
 .footer {
-  background-image: var(--gradient-footer);
+  background-color: var(--brand-navy);
   color: var(--text-on-action);
   margin-top: 2rem;
 }
