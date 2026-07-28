@@ -83,14 +83,14 @@ const IntroductionData = () => {
               this area should seek professional advice from a qualified person.
             </p>
             <p>
-              The Get Help! Australia team accepts no liability for claims by,
+              The Stop It Now! Australia team accepts no liability for claims by,
               or damages of any kind whatsoever, to users of this website. This
               also applies to decisions or actions taken by any individuals on
               the basis of the information contained on this website. The
               information and materials, unless stated otherwise, are
-              copyrighted by Get Help! Australia and are intended solely for the
+              copyrighted by Stop It Now! Australia and are intended solely for the
               user’s own use. The contents, design and format of this website
-              are under the ownership of Get Help! Australia and must not be
+              are under the ownership of Stop It Now! Australia and must not be
               reproduced or distributed without prior permission.
             </p>
             <p>
@@ -122,7 +122,7 @@ const IntroductionData = () => {
             <h4 className="secondary-color">Privacy Policy</h4>
 
             <p>
-              Your privacy is protected by the Privacy Act 1988 (Cth). Get Help!
+              Your privacy is protected by the Privacy Act 1988 (Cth). Stop It Now!
               Australia, a program of the University of Sunshine Coast, strives
               to meet or exceed the requirements of this Act. We’ve adopted this
               Website Privacy Policy (WPP), from Stop It Now! Australia, to
@@ -130,7 +130,7 @@ const IntroductionData = () => {
               do with it.
             </p>
             <p>
-              By continuing to use the Get Help! Australia website you agree to
+              By continuing to use the Stop It Now! Australia website you agree to
               the terms of this WPP, as set out below.
             </p>
             <p>Overview:</p>
@@ -198,13 +198,13 @@ const IntroductionData = () => {
             </p>
             <h2 className="secondary-color">Security of your information</h2>
             <p>
-              Get Help! Australia strives to ensure the security, integrity and
-              privacy of information submitted via this website. Get Help!
+              Stop It Now! Australia strives to ensure the security, integrity and
+              privacy of information submitted via this website. Stop It Now!
               Australia periodically reviews and updates security measures in
-              light of current technologies. Get Help! Australia cannot ensure
+              light of current technologies. Stop It Now! Australia cannot ensure
               or warrant the security of any information in transit because no
               data transmission over the Internet can be guaranteed to be
-              totally secure. Once Get Help! Australia receives your
+              totally secure. Once Stop It Now! Australia receives your
               transmission; however, strict security procedures are used to
               protect it on our systems. If you have been referred to this
               program by another organisation, please be assured their only
@@ -215,7 +215,7 @@ const IntroductionData = () => {
               Collection of website browsing information
             </h2>
             <p>
-              When visiting this website, Get Help! Australia site server makes
+              When visiting this website, Stop It Now! Australia site server makes
               a record of that visit and logs the information for statistical
               and administrative purposes. No identifiable information will be
               collected. Information collected is for the purposes of site
@@ -267,7 +267,7 @@ const IntroductionData = () => {
               hard disk (persistent cookies).
             </p>
             <p>
-              The Get Help! Australia website may use both types of cookie,
+              The Stop It Now! Australia website may use both types of cookie,
               depending on your use of the site.
             </p>
             <p>
@@ -284,7 +284,7 @@ const IntroductionData = () => {
             </p>
             <h2 className="secondary-color">How we use your information</h2>
             <p>
-              Get Help! Australia has been adapted by the University of Sunshine
+              Stop It Now! Australia has been adapted by the University of Sunshine
               Coast (Ethics Approval Number: S231878) for Australian use. Your
               browsing data and unidentifiable information will be used as part
               of a research project to learn more about how we can best help
@@ -297,12 +297,12 @@ const IntroductionData = () => {
               &nbsp;
             </p>
             <p>
-              By continuing to use the Get Help! Australia website you agree to
+              By continuing to use the Stop It Now! Australia website you agree to
               the terms of this WPP.
             </p>
             <h2 className="secondary-color">Changes to these terms</h2>
             <p>
-              Get Help! Australia will review this WPP periodically and reserves
+              Stop It Now! Australia will review this WPP periodically and reserves
               the right, at its discretion, to modify or remove portions of this
               policy at any time. This WPP is subject to regular review and you
               are advised to revisit this policy page periodically to be

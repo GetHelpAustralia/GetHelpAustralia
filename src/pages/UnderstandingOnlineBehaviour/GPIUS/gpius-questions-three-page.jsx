@@ -9,7 +9,7 @@ const GpiusQuizThree = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Self Awareness: GPIUS
+          Stop It Now! Australia - Self Awareness: GPIUS
         </h2>
       </Heading>
       <MainContent>

@@ -39,7 +39,7 @@ const DistressQuizResults = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Self Awareness: K-10
+          Stop It Now! Australia - Self Awareness: K-10
         </h2>
       </Heading>
       <MainContent>

@@ -10,7 +10,7 @@ const UnderstandingYourOnlineBehaviour = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Understanding Your Online Behaviour
+          Stop It Now! Australia - Understanding Your Online Behaviour
         </h2>
       </Heading>
       <MainContent>

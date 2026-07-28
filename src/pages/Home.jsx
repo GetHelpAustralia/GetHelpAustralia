@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Concerned about your online behaviour?
+          Stop It Now! Australia - Concerned about your online behaviour?
         </h2>
       </Heading>
       <MainContent>

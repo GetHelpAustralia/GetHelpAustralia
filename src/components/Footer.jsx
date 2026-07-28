@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="p-md-2 pt-sm-2">
                 <p>
                   <span>
-                    Get Help! Australia acknowledges the Traditional Owners of
+                    Stop It Now! Australia acknowledges the Traditional Owners of
                     the land
                   </span>
                   <br />
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <div className="p-md-2">
                 <p className="copyright m-0">
-                  copyright &copy; Get Help! Australia
+                  copyright &copy; Stop It Now! Australia
                 </p>
                 <p className="m-0">
                   <span id="date"></span> all rights reserved

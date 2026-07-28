@@ -11,7 +11,7 @@ const UnderstandingYourOnlineBehaviourData = () => {
         behaviour. This work is not always easy, but it is important. As you
         work through these modules, remember it can be helpful to take breaks,
         and remind yourself of your motivations to continue this positive work.
-        The Get Help! Australia modules can help you reflect on your learning
+        The Stop It Now! Australia modules can help you reflect on your learning
         and explore how you apply this learning to prevent illegal online
         behaviours.
       </p>

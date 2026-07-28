@@ -10,7 +10,7 @@ const MovingForward = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Moving Forward
+          Stop It Now! Australia - Moving Forward
         </h2>
       </Heading>
       <MainContent>

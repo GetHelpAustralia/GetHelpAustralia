@@ -11,7 +11,7 @@ const WellbeingAndSelfCare = () => {
     <>
       <Heading>
         <h2 className="secondary-color mb-3">
-          Get Help! Australia - Wellbeing and Self-care
+          Stop It Now! Australia - Wellbeing and Self-care
         </h2>
       </Heading>
       <MainContent>
