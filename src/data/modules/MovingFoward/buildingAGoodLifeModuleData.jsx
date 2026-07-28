@@ -43,7 +43,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel1-content"
               id="panel1-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -70,7 +70,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel2-content"
               id="panel2-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -96,7 +96,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel3-content"
               id="panel3-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -124,7 +124,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel4-content"
               id="panel4-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -150,7 +150,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel5-content"
               id="panel5-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -175,7 +175,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel6-content"
               id="panel6-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -200,7 +200,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel7-content"
               id="panel7-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -223,7 +223,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel8-content"
               id="panel8-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -251,7 +251,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel9-content"
               id="panel9-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -278,7 +278,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel10-content"
               id="panel10-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>
@@ -305,7 +305,7 @@ const BuildingAGoodLifeModuleData = [
               aria-controls="panel11-content"
               id="panel11-header"
               sx={{
-                backgroundColor: "#e6edf5",
+                backgroundColor: "var(--surface-info)",
               }}
             >
               <p>

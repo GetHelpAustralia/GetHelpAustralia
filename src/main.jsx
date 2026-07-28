@@ -1,8 +1,9 @@
-import "@font/stylesheet.scss";
 import "@scss/styles.scss";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { ThemeProvider } from "@mui/material/styles";
 import App from "./App.jsx";
+import muiTheme from "./muiTheme";
 
 // PostHog Analytics
 import posthog from "posthog-js";
@@ -16,8 +17,10 @@ posthog.init(import.meta.env.VITE_POSTHOG_API_KEY, {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <PostHogProvider client={posthog}>
-      <App />
-    </PostHogProvider>
+    <ThemeProvider theme={muiTheme}>
+      <PostHogProvider client={posthog}>
+        <App />
+      </PostHogProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );

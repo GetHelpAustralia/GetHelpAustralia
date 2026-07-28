@@ -195,7 +195,7 @@ const SelfCareModuleData = [
                 aria-controls="panel1-content"
                 id="panel1-header"
                 sx={{
-                  backgroundColor: "#e6edf5",
+                  backgroundColor: "var(--surface-info)",
                 }}
               >
                 <h6 className="secondary-color">Breathing Techniques</h6>
@@ -320,7 +320,7 @@ const SelfCareModuleData = [
                 aria-controls="panel2-content"
                 id="panel2-header"
                 sx={{
-                  backgroundColor: "#e6edf5",
+                  backgroundColor: "var(--surface-info)",
                 }}
               >
                 <h6 className="secondary-color">Grounding Exercises</h6>
@@ -411,7 +411,7 @@ const SelfCareModuleData = [
                 aria-controls="panel3-content"
                 id="panel3-header"
                 sx={{
-                  backgroundColor: "#e6edf5",
+                  backgroundColor: "var(--surface-info)",
                 }}
               >
                 <h6 className="secondary-color">Mindfulness</h6>

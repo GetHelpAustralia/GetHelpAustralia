@@ -62,7 +62,7 @@ const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
               series={[
                 {
                   data: [values[0], values[1], values[2], values[3], values[4]],
-                  color: "#004c97",
+                  color: "var(--action)",
                 },
               ]}
               // leftAxis={null}

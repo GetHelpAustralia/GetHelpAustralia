@@ -51,7 +51,7 @@ const IntroductionData = () => {
           aria-controls="panel1-content"
           id="panel1-header"
           sx={{
-            backgroundColor: "#e6edf5",
+            backgroundColor: "var(--surface-info)",
           }}
         >
           <div>
@@ -110,7 +110,7 @@ const IntroductionData = () => {
           aria-controls="panel2-content"
           id="panel2-header"
           sx={{
-            backgroundColor: "#e6edf5",
+            backgroundColor: "var(--surface-info)",
           }}
         >
           <div>

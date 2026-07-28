@@ -65,7 +65,7 @@ const StartingPointQuiz = () => {
               series={[
                 {
                   data: [tally[1], tally[2], tally[3]],
-                  color: "#004c97",
+                  color: "var(--action)",
                 },
               ]}
               leftAxis={null}

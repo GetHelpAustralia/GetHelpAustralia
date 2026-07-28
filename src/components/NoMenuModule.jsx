@@ -22,10 +22,10 @@ const NoMenuModule = ({ modules }) => {
       <div className="container-fluid">
         <div
           className="row align-items-start"
-          style={{ border: "1px solid #004c97" }}
+          style={{ border: "1px solid var(--border-action)" }}
         >
           <div className="d-flex flex-row m-0 p-0 h-100">
-            <div className="col p-0 flex-grow-1 bg-primary-subtle">
+            <div className="col p-0 flex-grow-1 surface-blue">
               <div className="btn-container">
                 {modules.map((module, index) => {
                   return (
@@ -34,8 +34,8 @@ const NoMenuModule = ({ modules }) => {
                       onClick={() => setValue(index)}
                       className={`${
                         index === value
-                          ? "semi-blue-background fs-5 text-light p-4 border border-light"
-                          : "blue-background fs-5 text-dark p-4 border border-light"
+                          ? "module-step-active fs-5 p-4 border border-light"
+                          : "module-step fs-5 p-4 border border-light"
                       }`}
                       role="button"
                     >
