@@ -697,8 +697,8 @@ const FantasyModuleData = [
             dislike or find unpleasant (i.e. liquorice, durian candies,
             eucalyptus etc.). We recommend you talk this through with one of our
             Helpline practitioners, or another qualified professional.
-          </p>
-          <p>
+         </p>
+        </div>
       ),
     },
   },
