@@ -188,8 +188,8 @@ const GuiltAndShameModuleData = [
             Accept responsibility for your mistake
           </h5>
           <p>
-            Facing what you have done is the first step toward forgiving
-            yourself. Don't make excuses or try to justify your actions.
+            Facing what you have done is the first step toward taking
+            accountability and making positive changes. Don't make excuses or try to justify your actions.
           </p>
           <p>
             See this as an opportunity to learn and grow as a person. Identify
