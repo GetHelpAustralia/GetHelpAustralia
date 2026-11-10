@@ -651,11 +651,7 @@ const FantasyModuleData = [
           </p>
           <p>
             <h5 className="secondary-color">2. Fantasy replacement</h5>
-            Change the ending or the subject of your fantasy. For example, if
-            you are beginning to indulge in fantasy about a child you have seen
-            in an illegal image or communicated with online, change the child to
-            an adult. In contrast, try a different fantasy all together which is
-            new and exciting…. and legal!
+         Redirect your fantasy towards an adult by changing the subject or ending.
           </p>
           <p>
             <h5 className="secondary-color">3. Fantasy blocker</h5>
