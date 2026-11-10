@@ -80,10 +80,7 @@ const ManagingThoughtsModuleData = [
             </p>
             <h5 className="secondary-color">Fantasy replacement</h5>
             <p>
-              Change the ending or the subject of your fantasy. For example, if
-              you are beginning to indulge in fantasy about a child you have
-              seen, change the child to an adult. In contrast, try a different
-              fantasy all together which is new and exciting…. and healthy!
+              Redirect your fantasy towards an adult by changing the subject or ending.
             </p>
             <h5 className="secondary-color">Fantasy blockers</h5>
             <p>
