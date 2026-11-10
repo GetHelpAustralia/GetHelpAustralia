@@ -56,6 +56,7 @@ body {
   font-size: 17px;
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-x: clip;
   background-color: var(--surface-page);
   color: var(--text-primary);
 }
